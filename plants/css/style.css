@@ -1,0 +1,2719 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Header start */
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .wrapper-header {
+    background: #edf2ec;
+  }
+  
+  .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    height: 134px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .logo-vector {
+    margin-bottom: 6px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .plants-text {
+    padding-left: 2px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+  }
+  
+  .nav-list {
+    display: flex;
+  }
+  
+  .nav-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 47px;
+    list-style-type: none;
+    margin-top: 1px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-a {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+    text-decoration: none;
+  }
+  
+  .nav-a1 {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #e06733;
+    text-decoration: none;
+  }
+  
+  .nav-a1:hover {
+    color: #010201;
+  }
+  
+  .nav-a:hover {
+    color: #e06733;
+  }
+  
+  /* Header end */
+  
+  /* welcome start */
+  
+  .welcome {
+    background: #edf2ec;
+  }
+  
+  .content-welcome {
+    max-width: 1220px;
+    height: 532px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div-image {
+    padding-top: 60px;
+  }
+  
+  .leafs-logo {
+    margin-right: 5px;
+    width: 449px;
+    height: 407px;
+  }
+  
+  .h1-welcom {
+    width: 549px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin: 0;
+    padding-top: 98px;
+    padding-bottom: 43px;
+  }
+  
+  .green-word {
+    color: rgba(73, 154, 24, 1);
+  }
+  
+  .lorem-text {
+    width: 526px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin: 0;
+    padding-bottom: 48px;
+  }
+  
+  .button {
+    padding-top: 4px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #e06733;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: #e06733;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  /* Welcome end  */
+  
+  /* About start  */
+  
+  .content-about {
+    max-width: 1220px;
+    height: 666px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .about-section1 {
+    padding-top: 161px;
+    padding-right: 153px;
+  }
+  
+  .about-section2 {
+    padding-top: 93px;
+  }
+  
+  .h2-about {
+    width: 463px;
+    margin: 0;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+  }
+  
+  .orange-word {
+    color: rgba(224, 103, 51, 1);
+  }
+  
+  .lorem-text-about {
+    width: 605px;
+    margin: 0;
+    padding-top: 39px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+  }
+  
+  .houseplant {
+    width: 50%;
+    width: 464px;
+    height: 479px;
+  }
+  
+  /* About end */
+  
+  /* Service start */
+  
+  .wrapper-service {
+    background: #edf2ec;
+  }
+  
+  .content-service {
+    max-width: 1220px;
+    height: 1300px;
+    margin: 0 auto;
+  }
+  
+  .services {
+    display: flex;
+  }
+  
+  .text-services {
+    margin: 0;
+    padding-top: 40px;
+    padding-right: 142px;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+  }
+  
+  .button-service1 {
+    width: 161px;
+    height: 50px;
+    margin-top: 69px;
+    margin-left: 14px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #e06733;
+  }
+  
+  .button-service2 {
+    width: 161px;
+    height: 50px;
+    margin-top: 69px;
+    margin-left: 39px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #e06733;
+  }
+  
+  .button-service3 {
+    width: 161px;
+    height: 50px;
+    margin-top: 69px;
+    margin-left: 38px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #e06733;
+  }
+  
+  .button-service1:hover {
+    background-color: #e06733;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  .button-service2:hover {
+    background-color: #e06733;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  .button-service3:hover {
+    background-color: #e06733;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  .service-item {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item1-service {
+    margin-bottom: 50px;
+  }
+  
+  .item2-service {
+    margin-bottom: 50px;
+  }
+  
+  .item3-service {
+    margin-bottom: 50px;
+  }
+  
+  .garden-care,
+  .planting,
+  .lawn-care,
+  .planting2,
+  .garden-care2,
+  .planting3 {
+    display: block;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .border-div {
+    border: 1px solid #e3e1d5;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  .garden-care {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service1 {
+    text-align: center;
+    margin: 3px 0;
+    padding-bottom: 36px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  .planting {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service2 {
+    text-align: center;
+    margin: 3px 0;
+    padding-bottom: 36px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  .lawn-care {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link3 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service3 {
+    text-align: center;
+    margin: 3px 0;
+    padding-bottom: 36px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  .planting2 {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link4 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service4 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 36px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  .garden-care2 {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link5 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service5 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 36px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  .planting3 {
+    width: 329px;
+    height: 350px;
+  }
+  
+  .link6 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .text-service6 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 35px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+  }
+  
+  /* Service end */
+  
+  /* Prices start */
+  
+  .content-prices {
+    max-width: 1220px;
+    height: 560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .h1-prices {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .prices-item {
+    width: 332px;
+    /* height: 282px; */
+    border: 1px solid #e3e1d5;
+    border-radius: 20px;
+    padding: 34px 41px;
+    padding-top: 2px;
+    max-height: 100%;
+  }
+  
+  .basics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .text-basics {
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+  }
+  
+  .img-ellips {
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 40px;
+  }
+  
+  .standart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .text-standart {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+  }
+  
+  .pro-care {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .text-pro-care {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+  }
+  
+  .prices2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .call-us {
+    margin-top: 38px;
+  }
+  
+  .gardeners {
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+  }
+  
+  .green-gardeners {
+    color: rgba(73, 154, 24, 1);
+  }
+  
+  .button-prices {
+    margin-top: 38px;
+    margin-bottom: 39px;
+    width: 162px;
+    height: 50px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #e06733;
+    background-color: #ffffff;
+  }
+  
+  .button-prices:hover {
+    background-color: #e06733;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+  
+  .leafs-prices {
+    width: 152px;
+    height: 175px;
+  }
+  
+  /* Accordion */
+  
+  /* 1 start*/
+  
+  .basics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  
+  .active,
+  .basics:hover {
+    background-color: #d6e7d2;
+  }
+  
+  .basics:after {
+    content: url(../img/svg/accordion_btn.svg);
+    margin-right: 41px;
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .active.basics::after {
+    content: url(../img/svg/accordion_btn3.svg);
+  }
+  
+  .accordion-section {
+    background-color: #d6e7d2;
+    width: 250px;
+    transition: 1s;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .accordion-content {
+    width: 169px;
+    margin: 0 auto;
+    height: 154px;
+  }
+  
+  .text-release {
+    border-top: 1px #aea1a1 solid;
+    padding-top: 4px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 170px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  
+  .button-contacts {
+    color: #717171;
+    text-decoration: none;
+  }
+  
+  .dollar-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .number-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .per-hour {
+    padding-left: 4px;
+    padding-top: 8px;
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  .accordion-button-basics {
+    margin-top: 7px;
+    padding-top: 2px;
+    padding-right: 12px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    width: 86px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: #ffffff;
+  }
+  
+  .accordion-per-hour {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .accordion-content {
+    width: 169px;
+    margin: 0 auto;
+    height: 101px;
+  }
+  
+  .button-contacts {
+    color: #717171;
+    text-decoration: none;
+  }
+  
+  .dollar-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .number-text {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #e06733;
+  }
+  
+  .per-hour {
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  .accordion-button-basics {
+    margin-top: 6px;
+    margin-left: -2px;
+    padding-top: 1px;
+    padding-right: 13px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    width: 86px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: #ffffff;
+  }
+  
+  .accordion-per-hour {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .button-price {
+    margin-top: 32px;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  .button-price:hover {
+    box-shadow: 5px 5px 5px #4a9a1874;
+    transition: 0.5s;
+  }
+  
+  /* 1 end*/
+  
+  /* Accordion */
+  
+  /* Prices end */
+  
+  /* Contacts start */
+  
+  .wrapper-contacts {
+    background: #edf2ec;
+  }
+  
+  .content-contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  
+  .image-woman {
+    display: block;
+    margin-top: 53px;
+    margin-right: 113px;
+    width: 400px;
+    height: 497px;
+  }
+  
+  .contacts-us {
+    margin-top: 60px;
+  }
+  
+  .h1-contacts {
+    margin: 0;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+  }
+  
+  .accordion-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 64px;
+    width: 450px;
+    height: 50px;
+    background: #d6e7d2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+  }
+  
+  .text-contacts {
+    margin: 0;
+    padding-left: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+  }
+  
+  .accordion-image {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 35px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* SELECT START */
+  
+  .accordion-btn:hover {
+    background-color: #c1e698;
+    transition: 1s;
+  }
+  
+  .accordion-btn:after {
+    content: url(../img/svg/accordion_btn4.svg);
+    margin-right: 35px;
+    margin-top: 5px;
+  }
+  
+  .accordion-btn.active {
+    content: url(../img/svg/drop_btn5.svg);
+  }
+  
+  .button-select {
+    width: 380px;
+    list-style-type: none;
+    margin-left: 26px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 16px;
+    line-height: 40px;
+    color: #499a18;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .button-select:hover {
+    color: #717171;
+    transition: 0.5s;
+    border-bottom: 1px solid #717171;
+  }
+  
+  .button-select1 {
+    padding-top: 28px;
+  }
+  
+  .button-select2 {
+    padding-top: 6px;
+  }
+  
+  .content-selector {
+    margin-left: 64px;
+    margin-top: 0;
+    background-color: #dce9d9;
+    padding-left: 0;
+    width: 450px;
+    height: 234px;
+  }
+  
+  .card {
+    display: flex;
+    width: 448px;
+    height: 214px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+  }
+  
+  .info-card {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    list-style-type: none;
+  }
+  
+  .info-card2 {
+    color: #717171;
+  }
+  
+  .list-card1 {
+    padding-left: 34px;
+  }
+  
+  .list-card2 {
+    padding-left: 16px;
+  }
+  
+  .call-us-tel {
+    display: block;
+    width: 122px;
+    height: 26px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #717171;
+    margin-top: 19px;
+    margin-left: -4px;
+    padding-top: 5px;
+  }
+  
+  .call-us-tel:hover {
+    background-color: #e06733;
+    color: #d9d9d9;
+    transition: 0.7s;
+  }
+  
+  .content-selectors {
+    margin-top: 148px;
+    overflow: hidden;
+    height: 50px;
+  }
+  
+  .opened-selector {
+    height: 284px;
+    transition: all 0.5s ease;
+  }
+  
+  .opened-selector .accordion-btn:after {
+    content: url(../img/svg/accordion_btn3.svg);
+  }
+  
+  .photo-card {
+    position: absolute;
+    z-index: 10;
+    top: 3434px;
+    right: 110px;
+    display: none;
+  }
+  
+  .content-selectors {
+    right: 110px;
+    position: absolute;
+    z-index: 20;
+  }
+  
+  .photo-card.active {
+    display: block;
+    width: 450px;
+  }
+  
+  .accordion-btn:active {
+      background-color: #C1E698;
+  }
+
+  
+  /* SELECT END */
+  
+  /* Contacts end */
+  
+  /* Footer start */
+  
+  .content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    height: 130px;
+    margin: 0 auto;
+  }
+  
+  .footer-data {
+    display: flex;
+  }
+  
+  .pref {
+    margin: 0;
+    padding-right: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+  }
+  
+  .year {
+    margin: 0;
+    padding-right: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+  }
+  
+  .github {
+    margin-left: 3px;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+  }
+  
+  .rss-text {
+    margin-left: 22px;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+  }
+  
+  .list-footer {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-footer > li {
+    margin-right: 20px;
+  }
+  
+  .item-pinterest:last-child {
+    margin: 0;
+  }
+  
+  .item-inst {
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
+  
+  .item-inst:hover img {
+    transform: scale(1.2);
+  }
+  
+  .item-facebook {
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
+  
+  .item-facebook:hover img {
+    transform: scale(1.2);
+  }
+  
+  .item-twitter {
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
+  
+  .item-twitter:hover img {
+    transform: scale(1.2);
+  }
+  
+  .item-pinterest {
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
+  
+  .item-pinterest:hover img {
+    transform: scale(1.2);
+  }
+  
+  .rss-text {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .rss-text:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    transition: width 0.5s;
+  }
+  
+  .rss-text:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #e06733;
+    transition: width 0.5s;
+  }
+  
+  .github {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .github:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    transition: width 0.5s;
+  }
+  
+  .github:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #e06733;
+    transition: width 0.5s;
+  }
+  
+  /* Footer end */
+  
+  @media (max-width: 1250px) {
+    /* Header start */
+  
+    .content-header {
+      padding: 0 20px;
+    }
+  
+    /* Header end */
+  
+    /* Welcome start */
+  
+    .content-welcome {
+      padding: 0 20px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start */
+  
+    .content-about {
+      padding: 0 20px;
+    }
+    .about-section1 {
+      padding-right: 0;
+    }
+  
+    .lorem-text-about {
+      width: 0;
+      min-width: 400px;
+    }
+  
+    .wrapper-about {
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* About end */
+  
+    /* Service start */
+  
+    .content-service {
+      padding: 0 20px;
+    }
+  
+    /* Service end */
+  
+    /* Prices start */
+  
+    .content-prices {
+      padding: 0 20px;
+    }
+  
+    /* Prices end */
+  
+    /* Contacts start */
+  
+    .content-contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      padding: 0 20px;
+    }
+  
+    .contacts-image {
+      order: 3;
+    }
+  
+    .accordion-btn {
+      margin-left: 0;
+    }
+  
+    .image-woman {
+      margin-right: 0;
+    }
+  
+    /* Contacts end */
+  
+    /* Footer start */
+  
+    .content-footer {
+      padding: 0 20px;
+    }
+  
+    /* Footer end */
+  }
+  
+  @media (max-width: 1070px) {
+    /* Header start */
+  
+    /* Header end */
+  
+    /* Welcome start */
+  
+    .leafs-logo {
+      margin-left: 70px;
+    }
+    .welcom-section2 {
+      margin-right: 50px;
+    }
+  
+    .h1-welcom {
+      padding-top: 50px;
+      width: 430px;
+    }
+  
+    .lorem-text {
+      width: 400px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start */
+  
+    .about-section1 {
+      padding-top: 105px;
+    }
+  
+    .h2-about {
+      width: 420px;
+    }
+  
+    .lorem-text-about {
+      padding-top: 50px;
+    }
+  
+    /* About end */
+  
+    /* Service start */
+  
+    .content-service {
+      display: flex;
+      flex-direction: column;
+      height: 1780px;
+      width: 860px;
+    }
+  
+    /* Service end */
+  
+    /* Prices start */
+  
+    /* Prices end */
+  
+    /* Contacts start */
+  
+    /* Contacts end */
+  
+    /* Footer start */
+  
+    /* Footer end */
+  }
+  
+  @media (max-width: 990px) {
+    /* Header start */
+  
+    .content-header {
+      max-width: 700px;
+    }
+    /* Header end */
+  
+    /* Welcome start */
+  
+    .welcom-section2 {
+      margin-right: 25px;
+    }
+  
+    .content-welcome {
+      display: flex;
+  
+      flex-direction: row-reverse;
+    }
+  
+    .leafs-logo {
+      margin-left: 20px;
+      width: 280px;
+      height: 254px;
+    }
+  
+    .h1-welcom {
+      font-size: 35px;
+      width: 340px;
+    }
+  
+    .lorem-text {
+      width: 350px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start  */
+  
+    .content-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-section1 {
+      padding-top: 50px;
+    }
+  
+    .h2-about {
+      width: 500px;
+    }
+  
+    .lorem-text-about {
+      width: 668px;
+    }
+  
+    .houseplant {
+      width: 260px;
+      height: 260px;
+    }
+  
+    .about-section2 {
+      padding-top: 20px;
+    }
+  
+    /* About end */
+  
+    /* Service start  */
+  
+    .content-service {
+      height: 1780px;
+      max-width: 668px;
+    }
+  
+    .button-service1 {
+      padding-top: 5px;
+      padding-left: 2px;
+      margin-left: 0;
+      margin-top: 40px;
+    }
+  
+    .service-item {
+      padding-top: 42px;
+    }
+  
+    .button-service2 {
+      padding-top: 5px;
+      padding-right: 4px;
+      margin-top: 40px;
+    }
+  
+    .button-service3 {
+      padding-top: 5px;
+      padding-left: 2px;
+      margin-top: 40px;
+    }
+  
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .text-services {
+      padding-top: 60px;
+      padding-right: 400px;
+      font-size: 35px;
+      line-height: 46px;
+    }
+  
+    .garden-care {
+      width: 280px;
+    }
+  
+    .planting {
+      width: 280px;
+    }
+  
+    .lawn-care {
+      width: 280px;
+    }
+  
+    .planting2 {
+      width: 280px;
+    }
+  
+    .garden-care2 {
+      width: 280px;
+    }
+  
+    .planting3 {
+      width: 280px;
+    }
+  
+    .text-service1 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service2 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      padding-right: 5px;
+    }
+  
+    .text-service3 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service4 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      padding-right: 4px;
+    }
+  
+    .text-service5 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service6 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .item1-service {
+      margin-bottom: 36px;
+    }
+  
+    .item2-service {
+      margin-bottom: 36px;
+    }
+  
+    .item3-service {
+      margin-bottom: 6px;
+    }
+  
+    .item4-service {
+      margin-bottom: 6px;
+    }
+  
+    .item5-service {
+      margin-top: 30px;
+    }
+  
+    .item6-service {
+      margin-top: 30px;
+    }
+  
+    .link3 {
+      padding-bottom: 7px;
+    }
+  
+    .link4 {
+      padding-bottom: 10px;
+    }
+  
+    .link5 {
+      padding-bottom: 10px;
+    }
+  
+    .link6 {
+      padding-bottom: 10px;
+    }
+  
+    /* Service end */
+  }
+  
+  /* Plants#2 Adaptive 768*/
+  
+  @media (max-width: 768px) {
+    /* Header start */
+  
+    .content-header {
+      max-width: 668px;
+      height: 117px;
+      padding: 0;
+    }
+  
+    .div-text {
+      margin-top: 7px;
+    }
+  
+    .nav-container {
+      margin-top: 5px;
+    }
+  
+    /* Header end */
+  
+    /* Welcome start  */
+  
+    .content-welcome {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 0;
+      max-width: 668px;
+      height: 420px;
+    }
+  
+    .h1-welcom {
+      padding: 0;
+      margin-top: 40px;
+      width: 341px;
+      font-size: 35px;
+    }
+  
+    .lorem-text {
+      padding: 0;
+      margin-top: 31px;
+      margin-bottom: 35px;
+      margin-left: 5px;
+      width: 330px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .div-image {
+      margin-top: 40px;
+  
+      padding-top: 0;
+    }
+  
+    .leafs-logo {
+      margin: 0;
+      width: 280px;
+      height: 254px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start */
+  
+    .content-about {
+      display: flex;
+      flex-direction: column;
+      height: 783px;
+      max-width: 668px;
+    }
+  
+    .lorem-text-about {
+      width: 668px;
+      padding: 0;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      letter-spacing: -0.1px;
+    }
+  
+    .about-section2 {
+      margin: 0 auto;
+      padding: 0;
+    }
+  
+    .h2-about {
+      padding-top: 40px;
+      margin: 0 auto;
+      font-size: 35px;
+      line-height: 46px;
+      text-align: center;
+    }
+  
+    .about-section1 {
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 27px;
+    }
+  
+    .houseplant {
+      width: 250px;
+      height: 258px;
+    }
+  
+    /* About end */
+  
+    /* Service start */
+  
+    .content-service {
+      height: 1780px;
+      max-width: 668px;
+      padding: 0;
+    }
+  
+    .button-service1 {
+      padding-top: 5px;
+      padding-left: 2px;
+      margin-left: 0;
+      margin-top: 40px;
+    }
+  
+    .service-item {
+      padding-top: 42px;
+    }
+  
+    .button-service2 {
+      padding-top: 5px;
+      padding-right: 4px;
+      margin-top: 40px;
+    }
+  
+    .button-service3 {
+      padding-top: 5px;
+      padding-left: 2px;
+      margin-top: 40px;
+    }
+  
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .text-services {
+      padding-top: 60px;
+      padding-right: 400px;
+      font-size: 35px;
+      line-height: 46px;
+    }
+  
+    .garden-care {
+      width: 280px;
+    }
+  
+    .planting {
+      width: 280px;
+    }
+  
+    .lawn-care {
+      width: 280px;
+    }
+  
+    .planting2 {
+      width: 280px;
+    }
+  
+    .garden-care2 {
+      width: 280px;
+    }
+  
+    .planting3 {
+      width: 280px;
+    }
+  
+    .text-service1 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service2 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      padding-right: 0;
+    }
+  
+    .text-service3 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service4 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      padding-right: 0;
+    }
+  
+    .text-service5 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .text-service6 {
+      width: 201px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+    .item1-service {
+      margin-bottom: 36px;
+    }
+  
+    .item2-service {
+      margin-bottom: 36px;
+    }
+  
+    .item3-service {
+      margin-bottom: 6px;
+    }
+  
+    .item4-service {
+      margin-bottom: 6px;
+    }
+  
+    .item5-service {
+      margin-top: 30px;
+    }
+  
+    .item6-service {
+      margin-top: 30px;
+    }
+  
+    .link3 {
+      padding-bottom: 7px;
+    }
+  
+    .link4 {
+      padding-bottom: 10px;
+    }
+  
+    .link5 {
+      padding-bottom: 10px;
+    }
+  
+    .link6 {
+      padding-bottom: 10px;
+    }
+  
+    /* Service end */
+  
+    /* Prices start  */
+  
+    .content-prices {
+      max-width: 668px;
+      height: 585px;
+      padding: 0;
+    }
+  
+    .h1-prices {
+      padding-left: 15px;
+      font-size: 35px;
+      line-height: 42px;
+    }
+  
+    .gardeners {
+      letter-spacing: -0.2px;
+      font-size: 25px;
+      line-height: 35px;
+    }
+  
+    .prices2 {
+      margin-top: 139px;
+    }
+  
+    .call-us {
+      margin-top: 0;
+    }
+  
+    .basics {
+      padding-bottom: 4px;
+    }
+  
+    .button-prices {
+      margin-top: 29px;
+      margin-bottom: 32px;
+    }
+  
+    /* Prices end */
+  
+    /* Contact us start */
+  
+    .content-contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 668px;
+      height: 739px;
+    }
+  
+    .image-woman {
+      margin: 0 auto;
+      width: 200px;
+      height: 248.49px;
+    }
+  
+    .contacts-image {
+      margin-left: 20px;
+      order: 3;
+    }
+  
+    .contacts-us {
+      margin-top: 40px;
+    }
+  
+    .accordion-btn {
+      margin: 0 auto;
+      margin-bottom: 148px;
+    }
+  
+    /* Contact us end */
+  
+    /* Footer start */
+  
+    .content-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 181px;
+      max-width: 668px;
+    }
+  
+    .footer-data {
+      height: 40px;
+      padding-right: 3px;
+    }
+  
+    .rss-text {
+      margin-left: 0;
+    }
+  
+    .rss {
+      padding-bottom: 13px;
+    }
+  
+    .social-list {
+      padding-bottom: 5px;
+    }
+  
+    /* Footer end */
+  }
+  
+  @media (max-width: 700px) {
+    .nav-item {
+      margin-right: 10px;
+    }
+  
+    /* Header start */
+  
+    .nav-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    /* Header end */
+  
+    /* Welcome start */
+  
+    .content-welcome {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .welcom-section1 {
+      display: flex;
+      order: 2;
+    }
+  
+    .welcom-section2 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 0;
+    }
+  
+    .leafs-logo {
+      width: 100px;
+      height: 90px;
+    }
+  
+    .h1-welcom {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .lorem-text {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .div-image {
+      margin-top: 10px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start */
+  
+    .content-about {
+      padding: 0;
+    }
+  
+    .h2-about {
+      width: 380px;
+      padding: 0;
+      margin: 50px 0;
+    }
+  
+    .lorem-text-about {
+      width: 380px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    /* About end */
+  
+    /* Service start */
+  
+    .content-service {
+      max-width: 330px;
+      height: 3150px;
+    }
+  
+    .text-services {
+      margin-top: 30px;
+      width: 255px;
+      padding: 0;
+      font-size: 25px;
+      line-height: 33px;
+    }
+  
+    .button-service1 {
+      margin-top: 38px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .button-service2 {
+      margin-top: 38px;
+      margin-left: 10px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .button-service3 {
+      margin-left: 0;
+      margin-top: 9px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .service-item {
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item1-service {
+      margin-bottom: 34px;
+    }
+  
+    .item2-service {
+      margin-bottom: 34px;
+    }
+  
+    .item3-service {
+      margin-bottom: 34px;
+    }
+  
+    .item4-service {
+      margin-bottom: 34px;
+    }
+  
+    .item5-service {
+      margin-top: 0;
+      margin-bottom: 34px;
+    }
+  
+    .item6-service {
+      margin-top: 0;
+      margin-bottom: 34px;
+    }
+  
+    .border-div {
+      height: 100px;
+    }
+  
+    /* Service end */
+  
+    /* Prices start */
+  
+    .content-prices {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 800px;
+      margin-right: 0;
+    }
+  
+    .prices2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+    }
+  
+    .h1-prices {
+      text-align: center;
+    }
+  
+    .gardeners {
+      text-align: left;
+      margin-top: 10px;
+    }
+  
+    .div-button {
+      margin: 0 auto;
+    }
+  
+    .leafs-prices {
+      margin: 0 auto;
+    }
+  
+    /* Prices end */
+  
+    /* Contact start  */
+  
+    .accordion-btn {
+      width: 350px;
+    }
+  
+    /* Contact end */
+  }
+  
+  @media (max-width: 425px) {
+    .content-about {
+      height: 650px;
+    }
+    .h2-about {
+      margin: 0 auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      width: 300px;
+      font-size: 25px;
+      line-height: 33px;
+    }
+  
+    .lorem-text-about {
+      font-size: 15px;
+      line-height: 25px;
+      min-width: 0;
+      width: 330px;
+    }
+  }
+  
+  /* Plants#2 Adaptive 380*/
+  
+  @media (max-width: 380px) {
+    /* Header start */
+  
+    .content-header {
+      display: flex;
+      align-items: start;
+      height: 100%;
+    }
+  
+    .logo {
+      margin-top: 33px;
+      margin-left: 25px;
+    }
+  
+    .hamburger {
+      margin-top: 34px;
+      margin-right: 25px;
+    }
+  
+    .nav-item {
+      margin: 0;
+    }
+  
+    .nav-list {
+      margin-top: 65px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .plants-text {
+      padding-right: 0;
+    }
+  
+    .button-price {
+      margin-top: 0;
+    }
+  
+    /* Header end */
+  
+    /* Welcome start */
+  
+    .content-welcome {
+      max-width: 330px;
+      padding: 0;
+      height: 330px;
+    }
+  
+    .div-image {
+      display: none;
+    }
+  
+    .h1-welcom {
+      text-align: left;
+      padding-left: 4px;
+      margin-top: 5px;
+      font-size: 25px;
+      line-height: 35px;
+    }
+  
+    .lorem-text {
+      text-align: left;
+      margin-top: 18.36px;
+      margin-bottom: 26px;
+    }
+  
+    .button {
+      margin-left: 6px;
+      padding-top: 2px;
+      width: 100px;
+      height: 34.14px;
+      font-size: 10px;
+    }
+  
+    .welcom-section2 {
+      margin-top: 52px;
+    }
+  
+    /* Welcome end */
+  
+    /* About start */
+  
+    .content-about {
+      max-width: 330px;
+      height: 516px;
+    }
+  
+    .h2-about {
+      padding-top: 6px;
+      margin-bottom: 12px;
+      width: 288px;
+      font-size: 25px;
+      line-height: 33px;
+      text-align: center;
+    }
+  
+    .lorem-text-about {
+      text-align: left;
+      margin-top: 12.55px;
+      margin-bottom: 0;
+      width: 326px;
+      height: 228.38px;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0;
+    }
+  
+    .about-section1 {
+      padding-bottom: 0;
+    }
+  
+    .houseplant {
+      width: 150px;
+      height: 147px;
+    }
+  
+    /* About end */
+  
+    /* Service start */
+  
+    .content-service {
+      padding: 0;
+      max-width: 330px;
+      height: 3150px;
+    }
+  
+    .text-services {
+      margin-top: 30px;
+      width: 255px;
+      padding: 0;
+      font-size: 25px;
+      line-height: 33px;
+    }
+  
+    .button-service1 {
+      margin-top: 38px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .button-service2 {
+      margin-top: 38px;
+      margin-left: 10px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .button-service3 {
+      margin-left: 0;
+      margin-top: 9px;
+      padding-top: 2px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .service-item {
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item1-service {
+      margin-bottom: 34px;
+    }
+  
+    .item2-service {
+      margin-bottom: 34px;
+    }
+  
+    .item3-service {
+      margin-bottom: 34px;
+    }
+  
+    .item4-service {
+      margin-bottom: 34px;
+    }
+  
+    .item5-service {
+      margin-top: 0;
+      margin-bottom: 34px;
+    }
+  
+    .item6-service {
+      margin-top: 0;
+      margin-bottom: 34px;
+    }
+  
+    .border-div {
+      height: 100px;
+    }
+  
+    .text-service2 {
+      padding-right: 0;
+    }
+  
+    .text-service4 {
+      padding-right: 0;
+    }
+  
+    /* Service end */
+  
+    /* Prices start */
+  
+    .content-prices {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 330px;
+      height: 512px;
+    }
+  
+    .h1-prices {
+      margin-left: 2px;
+      margin-top: 22px;
+      margin-bottom: 40px;
+      padding: 0;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+    }
+  
+    .prices2 {
+      margin-top: 0;
+    }
+  
+    .text-basics {
+      padding-left: 31px;
+      padding-bottom: 16px;
+      font-size: 15px;
+    }
+  
+    .text-standart {
+      padding-left: 29px;
+      padding-bottom: 16px;
+      font-size: 15px;
+    }
+  
+    .text-pro-care {
+      padding-left: 29px;
+      padding-bottom: 16px;
+      font-size: 15px;
+    }
+  
+    .basics {
+      margin: 0 auto;
+      margin-bottom: 13.92px;
+      width: 180px;
+      height: 49.72px;
+    }
+  
+    .standart {
+      margin: 0 auto;
+      margin-bottom: 13.92px;
+      width: 180px;
+      height: 49.72px;
+    }
+  
+    .pro-care {
+      margin: 0 auto;
+      width: 180px;
+      height: 49.72px;
+    }
+  
+    .prices-item {
+      width: 224px;
+      height: 235px;
+      padding: 29px 22px;
+    }
+  
+    .gardeners {
+      margin-left: 2px;
+      margin-top: 17px;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .button-prices {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      width: 121px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .div-button {
+      margin: 0 auto;
+    }
+  
+    .leafs-prices {
+      display: none;
+    }
+  
+    /* Prices end */
+  
+    /* Contact start */
+  
+    .content-contacts {
+      max-width: 330px;
+      height: 445px;
+    }
+  
+    .contacts-us {
+      margin-top: 25px;
+      margin-bottom: 80px;
+    }
+  
+    .h1-contacts {
+      font-size: 25px;
+      line-height: 33px;
+    }
+  
+    .accordion-btn {
+      width: 300px;
+      height: 50px;
+      margin-bottom: 132px;
+    }
+  
+    .image-woman {
+      margin-right: 25px;
+      width: 100px;
+      height: 124.25px;
+    }
+  
+    .accordion-image {
+      margin-bottom: 16px;
+      margin-right: 22px;
+    }
+  
+    /* Contact end */
+  
+    /* Footer start */
+  
+    .content-footer {
+      max-width: 330px;
+      height: 146px;
+    }
+  
+    .rss {
+      padding-bottom: 0;
+    }
+  
+    .pref {
+      margin-top: 1px;
+      margin-right: 1px;
+    }
+  
+    .nav {
+      height: 0;
+      overflow: hidden;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-opened {
+      height: 315px;
+    }
+    /* Footer end */
+  }
+  
+  @media (max-width: 360px) {
+    .div-logo {
+      margin-left: 10px;
+    }
+  
+    .h1-welcom {
+      width: 270px;
+    }
+  
+    .lorem-text {
+      margin-left: 0;
+      width: 270px;
+    }
+  
+    .services {
+      margin-left: 15px;
+    }
+  
+    .welcom-section2 {
+      width: 270px;
+      margin-left: 15px;
+    }
+    .lorem-text-about {
+      width: 310px;
+    }
+  
+    .content-service {
+      width: 320px;
+    }
+    .service-item {
+      width: 320px;
+    }
+  }
+  
+  @media (max-width: 336px) {
+    .content-about {
+      height: 525px;
+    }
+  
+    .h2-about {
+      text-align: left;
+      margin: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+    }
+  
+    .lorem-text-about {
+      width: 276px;
+      margin-bottom: 40px;
+    }
+  
+    .content-service {
+      width: 300px;
+    }
+  
+    .service-item {
+      width: 300px;
+    }
+  }
+  
+  /* Blur effect  */
+  
+  .button-service {
+    pointer-events: all;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .button-service.active {
+    background: darkorange;
+    color: white;
+  }
+  
+  .button-service.disabled {
+    pointer-events: none;
+  }
+  
+  .item-service.disabled {
+    filter: blur(2px);
+  }
+  
+  .item-service {
+    transition: 2s;
+  }
+  
+  /* Blur effect  */
+  
+  .basics.active {
+    border-radius: 20px 20px 0 0;
+  }
+  
